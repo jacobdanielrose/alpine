@@ -20,7 +20,7 @@ export default defineTheme({
   },
   typography: {
     font: {
-      body: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace'
+      body: 'var(--font-mono)'
     }
   }
 })
