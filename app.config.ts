@@ -28,13 +28,11 @@ export default defineAppConfig({
     socials: {
       twitter: 'jacobdanielrose',
       instagram: 'jacobdanielrose',
-
       linkedin: {
         icon: 'uil:linkedin',
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/company/nuxtlabs'
+        href: 'https://www.linkedin.com/in/jacob-rose-0b929b21b'
       },
-
       github: 'jacobdanielrose',
       facebook: 'jacobdanielrose'
     },
