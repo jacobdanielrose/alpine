@@ -1,3 +1,4 @@
+import theme from '@nuxt-themes/tokens/config'
 import { defineTheme } from 'pinceau'
 
 export default defineTheme({
@@ -14,4 +15,12 @@ export default defineTheme({
       }
     }
   },
+  color: {
+    primary: theme.color?.red
+  },
+  typography: {
+    font: {
+      body: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace'
+    }
+  }
 })
